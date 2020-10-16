@@ -8,8 +8,8 @@ app.use(bodyparser.json());
 var mysqlConnection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '1234',
-    database: 'EmployeeDB',
+    password: '',
+    database: 'taules_server',
     multipleStatements: true
 });
 
